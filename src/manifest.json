@@ -1,0 +1,18 @@
+{
+    "name": "Zinrai Translator for Chrome",
+    "version": "1.0",
+    "content_scripts": 
+    [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["./fontEnd.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "description": "Translate extension for chrome using Zinrai API",
+    "permissions": ["contextMenus", "https://zinrai-translation.bicc.css.fujitsu.com/*"],
+    "background": {
+        "scripts": ["main.js"]
+    },
+    "manifest_version": 2
+}

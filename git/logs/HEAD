@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 ef5decf765e4d41b4662abed81656dc998f39ef2 lizhang <lizhang@cn.fujitsu.com> 1567664436 +0800	clone: from http://git.fnst.cn.fujitsu.com/zhangx.fnst/zinrai-translator-for-chrome.git
+ef5decf765e4d41b4662abed81656dc998f39ef2 ef5decf765e4d41b4662abed81656dc998f39ef2 lizhang <lizhang@cn.fujitsu.com> 1567664493 +0800	checkout: moving from master to alert
+ef5decf765e4d41b4662abed81656dc998f39ef2 85a30b4ad3f00d25ae2eaf9637d048e2c55e7213 lizhang <lizhang@cn.fujitsu.com> 1567664534 +0800	commit: 添加 划词后 会把 翻译 alert出来的功能
+85a30b4ad3f00d25ae2eaf9637d048e2c55e7213 342f27f19b3fe19fcd1ff1b4b19dcef66d92dd85 lizhang <lizhang@cn.fujitsu.com> 1567673230 +0800	commit: 修改 reallttimetransl.js为realtimeTranslation.js
+342f27f19b3fe19fcd1ff1b4b19dcef66d92dd85 6b3d38a10a49b14fad6ae1e9d484ced79c7bca54 lizhang <lizhang@cn.fujitsu.com> 1567673983 +0800	commit: 删除onreadystatechange重复事件
+6b3d38a10a49b14fad6ae1e9d484ced79c7bca54 6b3d38a10a49b14fad6ae1e9d484ced79c7bca54 lizhang <lizhang@cn.fujitsu.com> 1567748431 +0800	checkout: moving from alert to tip
+6b3d38a10a49b14fad6ae1e9d484ced79c7bca54 4d6de0121536ddfb6925e077136bc2e65518a062 lizhang <lizhang@cn.fujitsu.com> 1567748466 +0800	commit: add tip
+4d6de0121536ddfb6925e077136bc2e65518a062 5ea3d3f31962cf9d74d4f91e54094a4629359094 lizhang <lizhang@cn.fujitsu.com> 1567757093 +0800	commit: 添加tooptip提示，但是使用的tooltip库的css对全局css有污染
+5ea3d3f31962cf9d74d4f91e54094a4629359094 ee130a6a2556bf89289717eeccfd01497f3bd88c lizhang <lizhang@cn.fujitsu.com> 1567757425 +0800	commit: 更新使用方法
+ee130a6a2556bf89289717eeccfd01497f3bd88c ef5decf765e4d41b4662abed81656dc998f39ef2 lizhang <lizhang@cn.fujitsu.com> 1567757597 +0800	checkout: moving from tip to master
+ef5decf765e4d41b4662abed81656dc998f39ef2 ee130a6a2556bf89289717eeccfd01497f3bd88c lizhang <lizhang@cn.fujitsu.com> 1567757648 +0800	merge tip: Fast-forward
+ee130a6a2556bf89289717eeccfd01497f3bd88c ee130a6a2556bf89289717eeccfd01497f3bd88c lizhang <lizhang@cn.fujitsu.com> 1567757836 +0800	checkout: moving from master to tooltip_css
+ee130a6a2556bf89289717eeccfd01497f3bd88c 8b04a2317762a2c479433f7a3a1ccaca16393e77 lizhang <lizhang@cn.fujitsu.com> 1567757914 +0800	commit: 添加代做事项
