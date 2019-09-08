@@ -1,5 +1,7 @@
 import Tooltip from 'tooltip.js';
 import './tooltip.css';
+import './manifest.config';
+import './main.chromejs';
 
 let sel = getSelection();
 let tooltip = null;
@@ -20,7 +22,12 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse)
   tooltip = new Tooltip(sel.focusNode.parentElement,{
     placement:'right',
     title:request.response.translation,
+    arrowSelector:'.tooltip-arrow-zxx',
+    innerSelector:'.tooltip-inner-zxx',
+    trigger: 'click',
+    template: '<div class="tooltip-zxx" role="tooltip"><div class="tooltip-arrow-zxx"></div><div class="tooltip-inner-zxx"></div></div>'
   });
+  console.log(request.response.translation)
   tooltip.show();
 });
 

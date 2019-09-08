@@ -2,9 +2,11 @@ const path = require('path');
 
 module.exports = {
     mode: 'development',
-    entry: './src/realtimeTranslation.js',
+    entry: {
+      'frontEnd': './src/realtimeTranslation.js',
+    },
     output: {
-        filename: 'frontEnd.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
     },
     module: {
@@ -15,7 +17,20 @@ module.exports = {
             'style-loader',
             'css-loader'
           ]
-        }
+        },
+        {
+          test: /\.(config|chromejs)$/,
+          loader: 'file-loader',
+          options: {
+            name(file){
+              if(file.split('.').slice(-1)[0] === 'config'){
+                return '[name].json'
+              } else {
+                return '[name].js'
+              }
+            }
+          },
+        },
       ]
     },
     externals: {

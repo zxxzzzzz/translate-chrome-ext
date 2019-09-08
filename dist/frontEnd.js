@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".popper,\\n.tooltip {\\n      position: absolute;\\n      background: #AAC107;\\n      color: black;\\n      width: 150px;\\n      border-radius: 3px;\\n      box-shadow: 0 0 2px rgba(0,0,0,0.5);\\n      padding: 10px;\\n      text-align: center;\\n  }\\n  .style5 .tooltip {\\n      background: #1E252B;\\n      color: #FFFFFF;\\n      max-width: 200px;\\n      width: auto;\\n      font-size: .8rem;\\n      padding: .5em 1em;\\n  }\\n  .popper .popper__arrow,\\n  .tooltip .tooltip-arrow {\\n      width: 0;\\n      height: 0;\\n      border-style: solid;\\n      position: absolute;\\n      margin: 5px;\\n  }\\n  \\n  .tooltip .tooltip-arrow,\\n  .popper .popper__arrow {\\n      border-color: #FFC107;\\n  }\\n  .style5 .tooltip .tooltip-arrow {\\n      border-color: #1E252B;\\n  }\\n  .popper[x-placement^=\\\"top\\\"],\\n  .tooltip[x-placement^=\\\"top\\\"] {\\n      margin-bottom: 5px;\\n  }\\n  .popper[x-placement^=\\\"top\\\"] .popper__arrow,\\n  .tooltip[x-placement^=\\\"top\\\"] .tooltip-arrow {\\n      border-width: 5px 5px 0 5px;\\n      border-left-color: transparent;\\n      border-right-color: transparent;\\n      border-bottom-color: transparent;\\n      bottom: -5px;\\n      left: calc(50% - 5px);\\n      margin-top: 0;\\n      margin-bottom: 0;\\n  }\\n  .popper[x-placement^=\\\"bottom\\\"],\\n  .tooltip[x-placement^=\\\"bottom\\\"] {\\n      margin-top: 5px;\\n  }\\n  .tooltip[x-placement^=\\\"bottom\\\"] .tooltip-arrow,\\n  .popper[x-placement^=\\\"bottom\\\"] .popper__arrow {\\n      border-width: 0 5px 5px 5px;\\n      border-left-color: transparent;\\n      border-right-color: transparent;\\n      border-top-color: transparent;\\n      top: -5px;\\n      left: calc(50% - 5px);\\n      margin-top: 0;\\n      margin-bottom: 0;\\n  }\\n  .tooltip[x-placement^=\\\"right\\\"],\\n  .popper[x-placement^=\\\"right\\\"] {\\n      margin-left: 5px;\\n  }\\n  .popper[x-placement^=\\\"right\\\"] .popper__arrow,\\n  .tooltip[x-placement^=\\\"right\\\"] .tooltip-arrow {\\n      border-width: 5px 5px 5px 0;\\n      border-left-color: transparent;\\n      border-top-color: transparent;\\n      border-bottom-color: transparent;\\n      left: -5px;\\n      top: calc(50% - 5px);\\n      margin-left: 0;\\n      margin-right: 0;\\n  }\\n  .popper[x-placement^=\\\"left\\\"],\\n  .tooltip[x-placement^=\\\"left\\\"] {\\n      margin-right: 5px;\\n  }\\n  .popper[x-placement^=\\\"left\\\"] .popper__arrow,\\n  .tooltip[x-placement^=\\\"left\\\"] .tooltip-arrow {\\n      border-width: 5px 0 5px 5px;\\n      border-top-color: transparent;\\n      border-right-color: transparent;\\n      border-bottom-color: transparent;\\n      right: -5px;\\n      top: calc(50% - 5px);\\n      margin-left: 0;\\n      margin-right: 0;\\n  }\\n  \", \"\"]);\n\n\n//# sourceURL=webpack:///./src/tooltip.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".tooltip-zxx {\\r\\n      position: absolute;\\r\\n      background: #AAC107;\\r\\n      color: black;\\r\\n      border-radius: 3px;\\r\\n      box-shadow: 0 0 2px rgba(0,0,0,0.5);\\r\\n      width: 200px;\\r\\n      padding: 10px;\\r\\n      font-size: 1rem;\\r\\n      padding: .5em 1em;\\r\\n      word-break: normal;\\r\\n  }\\r\\n  .tooltip-zxx > .tooltip-arrow-zxx {\\r\\n    width: 0;\\r\\n    height: 0;\\r\\n    position: absolute;\\r\\n    left:-10px;\\r\\n    border-width: 10px 10px 10px 0;\\r\\n    border-style: solid;\\r\\n    border-color: transparent  #AAC107 transparent transparent;\\r\\n  }\\r\\n  \\r\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/tooltip.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -156,6 +156,28 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/main.chromejs":
+/*!***************************!*\
+  !*** ./src/main.chromejs ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"main.js\";\n\n//# sourceURL=webpack:///./src/main.chromejs?");
+
+/***/ }),
+
+/***/ "./src/manifest.config":
+/*!*****************************!*\
+  !*** ./src/manifest.config ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"manifest.json\";\n\n//# sourceURL=webpack:///./src/manifest.config?");
+
+/***/ }),
+
 /***/ "./src/realtimeTranslation.js":
 /*!************************************!*\
   !*** ./src/realtimeTranslation.js ***!
@@ -164,7 +186,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var tooltip_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tooltip.js */ \"./node_modules/tooltip.js/dist/esm/tooltip.js\");\n/* harmony import */ var _tooltip_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tooltip.css */ \"./src/tooltip.css\");\n/* harmony import */ var _tooltip_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tooltip_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nlet sel = getSelection();\nlet tooltip = null;\n\ndocument.addEventListener('mouseup', () => {\n  const text = sel.toString();\n  if(text !== ''){\n    chrome.runtime.sendMessage({text: `${sel.toString()}`}, function(response) {\n    });\n  }\n});\n\nchrome.runtime.onMessage.addListener(function(request, sender, sendResponse)\n{\n  if(tooltip){\n    tooltip.dispose();\n  }\n  tooltip = new tooltip_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"](sel.focusNode.parentElement,{\n    placement:'right',\n    title:request.response.translation,\n  });\n  tooltip.show();\n});\n\n\n\n//# sourceURL=webpack:///./src/realtimeTranslation.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var tooltip_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tooltip.js */ \"./node_modules/tooltip.js/dist/esm/tooltip.js\");\n/* harmony import */ var _tooltip_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tooltip.css */ \"./src/tooltip.css\");\n/* harmony import */ var _tooltip_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tooltip_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _manifest_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./manifest.config */ \"./src/manifest.config\");\n/* harmony import */ var _manifest_config__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_manifest_config__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _main_chromejs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./main.chromejs */ \"./src/main.chromejs\");\n/* harmony import */ var _main_chromejs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_main_chromejs__WEBPACK_IMPORTED_MODULE_3__);\n\r\n\r\n\r\n\r\n\r\nlet sel = getSelection();\r\nlet tooltip = null;\r\n\r\ndocument.addEventListener('mouseup', () => {\r\n  const text = sel.toString();\r\n  if(text !== ''){\r\n    chrome.runtime.sendMessage({text: `${sel.toString()}`}, function(response) {\r\n    });\r\n  }\r\n});\r\n\r\nchrome.runtime.onMessage.addListener(function(request, sender, sendResponse)\r\n{\r\n  if(tooltip){\r\n    tooltip.dispose();\r\n  }\r\n  tooltip = new tooltip_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"](sel.focusNode.parentElement,{\r\n    placement:'right',\r\n    title:request.response.translation,\r\n    arrowSelector:'.tooltip-arrow-zxx',\r\n    innerSelector:'.tooltip-inner-zxx',\r\n    trigger: 'click',\r\n    template: '<div class=\"tooltip-zxx\" role=\"tooltip\"><div class=\"tooltip-arrow-zxx\"></div><div class=\"tooltip-inner-zxx\"></div></div>'\r\n  });\r\n  console.log(request.response.translation)\r\n  tooltip.show();\r\n});\r\n\r\n\n\n//# sourceURL=webpack:///./src/realtimeTranslation.js?");
 
 /***/ }),
 
